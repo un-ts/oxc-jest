@@ -1,11 +1,11 @@
-# lib-boilerplate
+# oxc-jest
 
-[![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/un-ts/lib-boilerplate/ci.yml?branch=main)](https://github.com/un-ts/lib-boilerplate/actions/workflows/ci.yml?query=branch%3Amain)
-[![Codecov](https://img.shields.io/codecov/c/github/un-ts/lib-boilerplate.svg)](https://codecov.io/gh/un-ts/lib-boilerplate)
-[![type-coverage](https://img.shields.io/badge/dynamic/json.svg?label=type-coverage&prefix=%E2%89%A5&suffix=%&query=$.typeCoverage.atLeast&uri=https%3A%2F%2Fraw.githubusercontent.com%2Fun-ts%2Flib-boilerplate%2Fmain%2Fpackage.json)](https://github.com/plantain-00/type-coverage)
-[![CodeRabbit Pull Request Reviews](https://img.shields.io/coderabbit/prs/github/un-ts/lib-boilerplate)](https://coderabbit.ai)
-[![npm](https://img.shields.io/npm/v/lib-boilerplate.svg)](https://www.npmjs.com/package/lib-boilerplate)
-[![GitHub Release](https://img.shields.io/github/release/un-ts/lib-boilerplate)](https://github.com/un-ts/lib-boilerplate/releases)
+[![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/un-ts/oxc-jest/ci.yml?branch=main)](https://github.com/un-ts/oxc-jest/actions/workflows/ci.yml?query=branch%3Amain)
+[![Codecov](https://img.shields.io/codecov/c/github/un-ts/oxc-jest.svg)](https://codecov.io/gh/un-ts/oxc-jest)
+[![type-coverage](https://img.shields.io/badge/dynamic/json.svg?label=type-coverage&prefix=%E2%89%A5&suffix=%&query=$.typeCoverage.atLeast&uri=https%3A%2F%2Fraw.githubusercontent.com%2Fun-ts%2Foxc-jest%2Fmain%2Fpackage.json)](https://github.com/plantain-00/type-coverage)
+[![CodeRabbit Pull Request Reviews](https://img.shields.io/coderabbit/prs/github/un-ts/oxc-jest)](https://coderabbit.ai)
+[![npm](https://img.shields.io/npm/v/oxc-jest.svg)](https://www.npmjs.com/package/oxc-jest)
+[![GitHub Release](https://img.shields.io/github/release/un-ts/oxc-jest)](https://github.com/un-ts/oxc-jest/releases)
 
 [![Conventional Commits](https://img.shields.io/badge/conventional%20commits-1.0.0-yellow.svg)](https://conventionalcommits.org)
 [![Renovate enabled](https://img.shields.io/badge/renovate-enabled-brightgreen.svg)](https://renovatebot.com)
@@ -31,22 +31,22 @@ A simple library boilerplate.
 
 ```sh
 # pnpm
-pnpm add lib-boilerplate
+pnpm add oxc-jest
 
 # yarn
-yarn add lib-boilerplate
+yarn add oxc-jest
 
 # npm
-npm i lib-boilerplate
+npm i oxc-jest
 
 # bun
-bun add lib-boilerplate
+bun add oxc-jest
 ```
 
 ### API
 
 ```js
-import echo from 'lib-boilerplate'
+import echo from 'oxc-jest'
 
 echo()
 ```
