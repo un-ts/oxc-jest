@@ -1,0 +1,8 @@
+{
+  "extends": ".",
+  "compilerOptions": {
+    "paths": {
+      "oxc-jest": ["./src/index.ts"]
+    }
+  }
+}
