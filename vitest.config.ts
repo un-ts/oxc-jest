@@ -1,6 +1,11 @@
 import { defineConfig } from 'vitest/config'
 
 export default defineConfig({
+  resolve: {
+    alias: {
+      'oxc-jest': new URL('src/index.ts', import.meta.url).pathname,
+    },
+  },
   test: {
     globals: true,
     coverage: {
